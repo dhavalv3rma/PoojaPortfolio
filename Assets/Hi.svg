@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg data-bbox="0 -0.003 94.041 67.026" viewBox="0 0 94.041 67.023" height="67.023" width="94.041" xmlns="http://www.w3.org/2000/svg" data-type="ugc">
+    <g>
+        <defs>
+            <linearGradient gradientUnits="objectBoundingBox" y2=".5" x2="1" y1=".5" id="e922dc4b-9f76-4fa9-acc7-ee60de6dacb9">
+                <stop stop-color="#185fae" offset="0"/>
+                <stop stop-color="#734f8c" offset=".247"/>
+                <stop stop-color="#b44c7c" offset=".605"/>
+                <stop stop-color="#f39664" offset="1"/>
+            </linearGradient>
+        </defs>
+        <path fill="url(#e922dc4b-9f76-4fa9-acc7-ee60de6dacb9)" transform="translate(-5.391 67.023)" d="M61.723 0v-64.822H48.156V-38.5h-29.2v-26.322H5.391V0h13.566v-27.312h29.2V0zm24.142 0h13.118v-48.156H85.865zm6.559-53.457a6.829 6.829 0 0 0 7.008-6.783 6.8 6.8 0 0 0-7.008-6.783 6.8 6.8 0 0 0-7.008 6.783 6.829 6.829 0 0 0 7.008 6.783z"/>
+    </g>
+</svg>
