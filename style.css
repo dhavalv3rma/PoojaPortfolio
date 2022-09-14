@@ -55,7 +55,6 @@ nav li{
 
 }
 .video-container{
-    /* overflow: hidden; */
     height: 100%;
     
 }
@@ -68,13 +67,36 @@ nav li{
     object-fit: cover;
 }
 
+@media only screen and (max-width: 600px) {
+    .navbar, .navbar li{
+        text-align: center;
+        margin: auto;
+    }
+    .navbar-nav{
+        margin: 15px auto;
+    }
+    .content, .content .carousel-item, .content .carousel-item img{
+        text-align: center;
+        margin: auto;
+        width: 100%;
+    }
+    .video-container{
+        height: auto;
+    }
+    .video-container video{
+        filter: grayscale(1);
+        opacity: 0.6;
+        height: 60%;
+        bottom: 0;
+    }
+  }
+
 .carousel-item{
     height: 40px;
     width: 50%;
 }
 
 .carousel-item img{
-    /* width: auto; */
     height: 40px;
     object-fit: contain;
 }
