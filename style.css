@@ -12,31 +12,48 @@
 body,html {
     margin: 0;
     padding: 0;
-    font-family: 'GilroyMed',Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Gilroylight',Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 19px;
 }
 body {
-    animation: fadeInAnimation ease 1s
+    animation: fadeInAnimation ease 1s;
+    width: 100% !important;
     /* animation-iteration-count: 1;
     animation-fill-mode: forwards; */
 }
-  
+
+
+ul{
+    list-style: none;
+}
+
 @keyframes fadeInAnimation {
     0% {
         opacity: 0;
     }
     100% {
         opacity: 1;
-     }
+    }
 }
 
 h1,h2,h3,h4,h5,h6{
     font-family: 'Gilroylight',Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
 }
 
-nav li a.active,strong{
+.container-fluid.dark{
+    background-color: #000000;
+    color: #ffffff;
+}
+.h-90{
+    height: 91%;
+}
+
+nav li a.active,nav li a:hover,.strong{
     background-color: #e8ff00;
+}
+.strong-blue{
+    color: #001eff !important;
 }
 
 nav li{
@@ -45,7 +62,6 @@ nav li{
     text-align: center;
     width: 150px;
 }
-
 
 .hero{
     position: relative;
@@ -67,6 +83,41 @@ nav li{
     object-fit: cover;
 }
 
+.carousel-item{
+    height: 40px;
+    width: 50%;
+}
+
+.carousel-item img{
+    height: 40px;
+    object-fit: contain;
+}
+
+/* project-page */
+.disabled-text{
+    color: grey;
+}
+
+.badge-green{
+    background: rgb(223, 255, 175);
+    color: green
+}
+
+.badge-orange{
+    background: rgb(255, 227, 174);
+    color: orange
+}
+
+.badge-voilet{
+    background: rgb(255, 203, 255);
+    color: violet
+}
+
+.companies img{
+    margin: 8px 8px;
+    opacity: 0.4; 
+    filter: grayscale(1);
+}
 @media only screen and (max-width: 600px) {
     .navbar, .navbar li{
         text-align: center;
@@ -90,13 +141,4 @@ nav li{
         bottom: 0;
     }
   }
-
-.carousel-item{
-    height: 40px;
-    width: 50%;
-}
-
-.carousel-item img{
-    height: 40px;
-    object-fit: contain;
-}
+  
