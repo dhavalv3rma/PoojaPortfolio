@@ -83,7 +83,7 @@ nav li{
     object-fit: cover;
 }
 
-.carousel-item{
+#home .carousel-item{
     height: 40px;
     width: 50%;
 }
@@ -92,6 +92,11 @@ nav li{
     height: 40px;
     object-fit: contain;
 }
+/* 
+footer{
+    background: #fcf4e7;
+} */
+
 
 /* project-page */
 .disabled-text{
@@ -110,14 +115,28 @@ nav li{
 
 .badge-voilet{
     background: rgb(255, 203, 255);
-    color: violet
+    color: rgb(180, 35, 180)
 }
-
+.badge-red{
+    background: rgb(226, 200, 200);
+    color: red
+}
+.badge-darkgreen{
+    background: rgb(113, 173, 121);
+    color: rgb(20, 73, 20)
+}
 .companies img{
     margin: 8px 8px;
     opacity: 0.4; 
     filter: grayscale(1);
 }
+
+/* about-page */
+#about section{
+    background: #fcf4e7;
+}
+
+
 @media only screen and (max-width: 600px) {
     .navbar, .navbar li{
         text-align: center;
